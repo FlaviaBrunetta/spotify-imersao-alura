@@ -43,3 +43,93 @@ h1 {
 .logo img {
   width: 80px;
 }
+
+.library {
+  background-color: #121212;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 14px;  
+  color: #b3b3b3;
+  margin-top: 10px;
+  padding: 16px 0 0 16px;
+}
+.library .lib__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0 0 16px;
+}
+.library .lib__header div {
+  display: flex;
+  margin-right: 10px;
+  text-decoration: none;
+  font-family: "DM Sans", sans-serif;
+  text-align: center;
+ 
+}
+.library .lib__header div .fas {
+ font-size: 20px;
+ margin-right: 10px;
+ font-weight: 300;
+ padding-right: 8px;
+}
+.lib__header .fa-plus {
+  margin: 0px 24px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    min-height: 100%;
+    padding: 0 8px 8px;
+}
+.cards__section {
+  background-color: #242424;
+  align-items: flex-start;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #b3b3b3;
+  font-weight: 600;
+  font-size: 14px;
+  
+  margin: 8px 0;
+  padding: 16px 20px;
+  gap: 20px;
+}
+.cards__section .cards__content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.cards__content span {
+  padding-bottom: 14px;
+}
+.cards__content .title {
+  font-weight: 700;
+  color: #fff;
+}
+.cards__content .subtitle {
+  font-weight: 500;
+  color: #fff;
+
+}
+.cards__button {
+  background-color: #ffffff;
+  color: #000;
+  border-radius: 9999px;
+  display: inline-block;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  text-transform: none;
+  padding: 10px;
+  border: 0px;
+  width: 113px;
+  justify-content: center;
+  margin-top: 12px;
+}
